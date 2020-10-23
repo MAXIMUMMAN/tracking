@@ -1,0 +1,50 @@
+
+.container-login {
+  position: absolute;
+  background-color: $left-block;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: $font-family;
+  font-size: $font-size-base;
+  color: #BED7D4;
+  border-radius: 5px;
+  .container-login__header{
+    margin: 0 0 15px 0;
+    background:url("/images/logo.png") no-repeat;
+    background-position: right;
+    height: 63px;
+  }
+
+  .container-login-form {
+    text-align: center;
+    input {
+      margin: 10px 0;
+      padding: 12px 15px;
+      border: none;
+      border-radius: 3px;
+      background-color: #FFFFFF;
+      width: 80%;
+      font-size: $font-size-base*0.75;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      margin: 15px  0 25px 0;
+      padding: 12px 15px;
+      background-color: $account-block;
+      border: none;
+      border-radius: 5px;
+      color: #171717;
+      font-size: $font-size-base*0.75;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
