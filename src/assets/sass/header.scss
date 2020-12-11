@@ -1,4 +1,3 @@
-
 .container-login {
   position: absolute;
   background-color: $left-block;
@@ -44,6 +43,9 @@
       letter-spacing: 1px;
       &:focus {
         outline: none;
+      }
+      &:disabled {
+        opacity: .8;
       }
     }
   }
